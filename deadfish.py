@@ -1,9 +1,13 @@
-"""
-Author: Pat Alwell
-Date: September 6th, 2018
-Instructions:
+'''
+**********************************************************************
+* Filename    : deadfish.py
+* Description : Solution to CodeWars DeadFish Challenge
+* Author      : Pat Alwell
+* E-mail      : pat.alwell@gmail.com
+* Website     : www.patalwell.com
+* Update      :
 
-Write a simple parser that will parse and run Deadfish.
+* Challenge   : Write a simple parser that will parse and run Deadfish.
 
 Deadfish has 4 commands, each 1 character long:
 
@@ -14,9 +18,8 @@ o outputs the value into the return array
 Invalid characters should be ignored.
 
 parse("iiisdoso")  ==>  [8, 64]
-"""
-
-
+**********************************************************************
+'''
 def parse(data):
 
     output_array = []
